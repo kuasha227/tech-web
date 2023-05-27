@@ -14,10 +14,10 @@ const Header = () => {
             title:'Portfolio'
         },
         {
-            title:'About Us'
+            title:'About'
         },
         {
-            title:'Contact Us'
+            title:'Contact'
         },
     ]
   return (
@@ -34,7 +34,7 @@ const Header = () => {
       <div className='hidden md:flex gap-5 justify-center items-center text-white'>
         {
             menus.map((item, index)=>(
-                <ul key={index} className='hover:text-black text-lg font-semibold'>{item.title}</ul>
+                <ul key={index} className='hover:text-black text-lg font-semibold px-3'>{item.title}</ul>
             )
             )
         }
