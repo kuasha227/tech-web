@@ -21,7 +21,7 @@ const Header = () => {
         },
     ]
   return (
-    <div className='sticky top-0 border-gray-100 drop-shadow-sm max-w-100 bg-[#00c2a2] p-5 flex justify-between items-center'>
+    <div className='border-gray-100 drop-shadow-sm max-w-100 bg-[#00c2a2] p-5 flex justify-between items-center'>
       <div className='text-white font-bold text-3xl px-5 hover:text-black'>
         TECH-WEB
       </div>
