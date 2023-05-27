@@ -39,10 +39,10 @@ const Header = () => {
             )
         }
       </div>
-      <div className={`md:hidden gap-5 justify-center items-center text-white fixed bg-[#00c2a2] ${toggle ? 'left-0' : 'left-[-100%]'} top-[75px] py-5 w-[300px] h-screen duration-500`}>
+      <div className={`md:hidden gap-5 justify-center items-center text-white fixed bg-[#00c2a2] ${toggle ? 'left-0' : 'left-[-100%]'} top-[75px] px-10 w-[300px] h-screen duration-500`}>
         {
             menus.map((item, index)=>(
-                <ul key={index} className='hover:text-black text-lg font-semibold'>{item.title}</ul>
+                <ul key={index} className='hover:text-black text-lg font-semibold p-3'>{item.title}</ul>
             )
             )
         }
